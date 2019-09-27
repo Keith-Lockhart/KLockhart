@@ -1,0 +1,20 @@
+#1 /bin/sh
+echo "data.text" 
+$ grep 'Male' /etc/passwd
+find . -type f -name '[a-k]*'
+$ egrep -l "\b1-[[:digit:]]{3}-[[:digit:]]{3}-[[:digit:]]{4}\b" \
+    /etc/* 2>/dev/null | sort > ~/etcphone.txt
+    df_col_list = []
+def fileinput(data.text):
+    for f in files:
+        df = pd.read_csv(f, usecols=['first_name'])
+        df.rename(columns={'first_name':f}, inplace=True)
+        df_col_list.append(df)
+
+concat = pd.concat(df_col_list, axis = 1)
+concat.to_csv(data.text)
+ls | wc -l
+$ awk '{ sub("\.com$", ".org", $1); print }' <file
+sed 's/\(\b[A-Z]\)/\(\1\)/g' data.text
+sed -e '10d' data.text
+awk '{print NR  "> " $s}' inputfile > outputfile
